@@ -11,7 +11,7 @@ function InfoCard(props) {
 
         <button
           href="#"
-          className="btn btn-primary"
+          className="btn-primary"
           onClick={() => props.modifyIndex(2)}
         >
           Go
