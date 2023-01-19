@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Hello you, 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <p align="center">Calculateur de nutrition</p>
+  
+Ce projet est un outil en ligne qui permet aux utilisateurs de calculer leurs besoins en nutriments en fonction de leur âge, sexe, poids, taille et niveau d'activité physique. Il permet également de suivre leur consommation de nourriture et de comparer leurs apports nutritionnels avec les recommandations recommandées. Ce projet est conçu pour aider les utilisateurs à atteindre leurs objectifs de santé et de bien-être en leur fournissant des informations précises et utiles sur leur alimentation.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 🛠️ Tech Stack
+- [React](https://reactjs.org/)
+- [Vitejs](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instructions d'utilisation
 
-### `npm test`
+### Installation des dépendances
+```bash
+npm install
+```  
+### Script de développement
+```bash
+npm run dev
+```
+Ce script lance le serveur de développement, permettant de visualiser et tester l'application en cours de développement.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Script de construction
+```bash
+npm run build
+```
+Ce script construit l'application pour une utilisation en production. Les fichiers générés se trouvent dans le dossier `build`.
 
-### `npm run build`
+### Script de prévisualisation
+```bash
+npm run preview
+```
+Ce script lance un serveur de prévisualisation de l'application construite. Il est utilisé pour vérifier les fichiers de production avant de les déployer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Script pour tailwind-watcher
+```bash
+npm run tailwind-watcher
+```
+Ce script lance un watcher pour tailwind, qui permet de détecter et de compiler automatiquement les modifications apportées aux fichiers de configuration de tailwind. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribution
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer cette application, merci de soumettre une demande de tirage ou de contacter l'auteur.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙇 Author
+#### Aurelien Gremy
+- Twitter: [@AurelGy](https://twitter.com/AurelGy)
+- Github: [@aureliengremy](https://github.com/aureliengremy)
