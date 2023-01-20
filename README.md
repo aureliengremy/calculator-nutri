@@ -1,5 +1,3 @@
-# Hello you, 👋
-
 # <p align="center">Calculateur de nutrition</p>
   
 Ce projet est un outil en ligne qui permet aux utilisateurs de calculer leurs besoins en nutriments en fonction de leur âge, sexe, poids, taille et niveau d'activité physique. Il permet également de suivre leur consommation de nourriture et de comparer leurs apports nutritionnels avec les recommandations recommandées. Ce projet est conçu pour aider les utilisateurs à atteindre leurs objectifs de santé et de bien-être en leur fournissant des informations précises et utiles sur leur alimentation.
