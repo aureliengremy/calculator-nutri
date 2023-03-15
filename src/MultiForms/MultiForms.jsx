@@ -3,8 +3,6 @@ import WelcomeCard from "../Form/WelcomeCard";
 import ThanksCard from "../Form/ThanksCard";
 import InfoCard from "../Form/InfoPersoCard";
 
-import "./MultiForms.css";
-
 function MultiForms(props) {
   const [formIndex, setFormIndex] = useState(1);
   const [allData, setAllData] = useState({
@@ -30,7 +28,7 @@ function MultiForms(props) {
   };
 
   return (
-    <div className="MultiForms-section">
+    <div className="">
       {formIndex === 1 ? (
         <WelcomeCard modifyIndex={modifyIndex} />
       ) : formIndex === 2 ? (

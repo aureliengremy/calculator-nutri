@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function InfoCard(props) {
   return (
@@ -18,6 +19,7 @@ function InfoCard(props) {
         </button>
       </div>
     </div>
+    
   );
 }
 
