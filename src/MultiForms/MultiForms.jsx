@@ -36,6 +36,7 @@ function MultiForms(props) {
       ) : (
         <ThanksCard modifyIndex={modifyIndex} sendInfo={allData} />
       )}
+      
     </div>
   );
 }
