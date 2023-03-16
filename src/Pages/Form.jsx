@@ -1,8 +1,11 @@
 import React from 'react'
+import Onboarding01 from '../MultiForms/Onboarding01'
 
 const Form = () => {
   return (
-    <div>Form</div>
+    <div>
+      <Onboarding01 />
+    </div>
   )
 }
 
