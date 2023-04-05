@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 // import OnboardingImage from '../images/onboarding-image.jpg';
 // import OnboardingDecoration from '../images/auth-decoration.png';
 
-function Onboarding01() {
+function Onboarding01(props) {
   return (
     <main className="bg-white">
 
@@ -109,7 +109,13 @@ function Onboarding01() {
                     </label>
                   </div>
                   <div className="flex items-center justify-between">
-                    <Link className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-auto" to="/onboarding-02">Next Step -&gt;</Link>
+                    {/* <Link className="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-auto" to="/onboarding-02">Next Step -&gt;</Link> */}
+                    <button
+        className="card-btn btn btn-primary"
+        onClick={() => props.modifyIndex(2, formData)}
+      >
+        Suivant
+      </button>
                   </div>
                 </form>
 

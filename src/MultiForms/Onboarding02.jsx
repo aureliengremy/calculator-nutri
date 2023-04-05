@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import OnboardingImage from '../images/onboarding-image.jpg';
-import OnboardingDecoration from '../images/auth-decoration.png';
+// import OnboardingImage from '../images/onboarding-image.jpg';
+// import OnboardingDecoration from '../images/auth-decoration.png';
 
-function Onboarding02() {
+function Onboarding02(props) {
   return (
     <main className="bg-white">
 
@@ -132,8 +132,8 @@ function Onboarding02() {
 
         {/* Image */}
         <div className="hidden md:block absolute top-0 bottom-0 right-0 md:w-1/2" aria-hidden="true">
-          <img className="object-cover object-center w-full h-full" src={OnboardingImage} width="760" height="1024" alt="Onboarding" />
-          <img className="absolute top-1/4 left-0 -translate-x-1/2 ml-8 hidden lg:block" src={OnboardingDecoration} width="218" height="224" alt="Authentication decoration" />
+          <img className="object-cover object-center w-full h-full" src="https://images.unsplash.com/photo-1546548970-71785318a17b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80" width="760" height="1024" alt="Onboarding" />
+          <img className="absolute top-1/4 left-0 -translate-x-1/2 ml-8 hidden lg:block" src="https://img.icons8.com/stickers/512/healthy-eating.png" width="109" height="112" alt="Authentication decoration" />
         </div>
 
       </div>
